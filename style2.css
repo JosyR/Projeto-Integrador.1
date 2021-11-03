@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&family=Source+Sans+Pro:ital,wght@0,300;1,300&family=Work+Sans:ital,wght@0,200;0,700;1,200;1,600&display=swap');
+
+* {
+     margin: 0;
+      padding: 0px ;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+
+  body{
+      background: url(Imagens/backgroud\ 2.png);
+    
+  }
+  .container{
+    background:white;
+    border-radius: 8px;
+  }
+  .container-fluid{
+    background: white;
+    border-radius:20px ;
+    display: flex;
+      align-items: center;
+      width:300px ;
+      margin-top: 5px;
+      transform:scale(+79%);
+  }
+  .col-11{
+    align-items: center;
+      text-align: center;
+      margin-left: 4%;
+      margin-top: 30px;
+      color: white;
+      background-image: linear-gradient( to right, rgb(138, 78, 78), rgb(75, 31, 32));
+
+  }
+.col-md-4 img{
+    margin-left: 32%;
+    border: none;
+    margin-top: 30px;
+}
+
+.col-md-8{
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+}
+  .cards{
+      
+        margin-top: 20px;
+      display: flex;
+      text-align: center;
+      margin-left: 3px;
+    
+  }
+  .svg2{
+    width: 250px
+    
+  
+  }
+  .svg{
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  .search-text{
+    background: rgba(117, 95, 74, 0.76);
+    border:none ;
+    display:ruby-base;
+  }
+
+

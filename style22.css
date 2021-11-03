@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&family=Source+Sans+Pro:ital,wght@0,300;1,300&family=Work+Sans:ital,wght@0,200;0,700;1,200;1,600&display=swap');
+    
+      * {
+       
+        margin: 0;
+
+
+        padding: 0;
+
+       
+        box-sizing: border-box;
+
+       
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+     
+        background-image: url(Imagens/backgroud\ 2.png);
+           
+      }
+
+  
+  main.container {
+      background: white;
+      margin-top: 30px;
+      height: 27rem;
+      width: 20rem;
+      padding: 0.9rem;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      margin-block-end: 30px;
+  }
+  
+  main h2 {
+      font-weight: 600;
+      margin-bottom: 2rem;
+      text-align: center;
+  }
+  
+
+  form .input-field:first-child {
+      margin-bottom: 1.5rem;
+  }
+  
+  .input-field .underline::before {
+      content: '';
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      bottom: -5px;
+      left: 0;
+      background: rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  form {
+    display:flex;
+    flex-direction: column;
+}
+
+.input-field {
+    position: relative;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  position: relative;
+}
+
+form .input-field:first-child {
+  margin-bottom: 1.5rem;
+}
+
+.input-field input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.input-field input:focus ~ .underline::after {
+    transform: scaleX(1);
+}
+input-field .underline::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.input-field .underline::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+  background: linear-gradient(45deg, #7a3833, #5e3816);
+  transform: scaleX(0);
+  transition: all .0s ease-in-out;
+  transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after {
+  transform: scaleX(1);
+}
+
+.input-field input {
+  outline: none;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}  
+
+
+
+
+
+.svg2{
+  width: 250px
+  
+
+}
+.svg{
+  width: 20px;
+  height: 20px;
+}
+
+
+.search-text{
+  background: rgba(117, 95, 74, 0.76);
+  border:none ;
+  display:ruby-base;
+
+}
+
+
+  
+  form input[type="submit"] {
+      margin-top: 2rem;
+      padding: 0.4rem;
+      width: 100%;
+      background: #5c4026;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 300;
+      border-radius: 20px;
+  
+  }
+  
+  form input[type="submit"]:hover {
+      letter-spacing: 0.5px;
+      background:  rgb(105, 47, 20);
+      color: white;
+  }
+  
+  .footer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+  }
+  
+  .footer span {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 0.8rem;
+      text-align: center;
+  }
+  
+  .footer .social-field {
+      padding: 0.4rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      width: 100%;
+      cursor: pointer;
+      margin-top: 1rem;
+  }
+  
+  .footer .social-field a i {
+      margin: 0 0.5rem;
+      width: 15px;
+
+  }
+  
+  .footer .social-field a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .footer .social-field.twitter {
+      background: linear-gradient(to right, #5188d1, #4ab);
+  }
+  
+  .footer .social-field.facebook {
+      background: linear-gradient(to right, #3d6fcc, #506d99);
+  }
+
+  .link{
+
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+  }

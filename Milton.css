@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&family=Source+Sans+Pro:ital,wght@0,300;1,300&family=Work+Sans:ital,wght@0,200;0,700;1,200;1,600&display=swap');
+    
+      * {
+       
+        margin: 0;
+
+
+        padding: 0;
+
+       
+        box-sizing: border-box;
+
+       
+        font-family: "Poppins", sans-serif;
+      }                                      
+   body {
+  background-image: url(Imagens/backgroud\ 2.png);
+       }
+             
+       .navbar.custom {
+        width: 50%;  
+        margin: 0 auto;
+      }
+  
+
+
+       .text {
+         margin-left: 20px;
+          font-weight: 900;
+    line-height: 1.5;
+     }
+                                                    
+      h4 {
+     line-height: 1.5;}
+     h3{
+       margin-left: 20px;
+     }
+    
+                                
+.container{
+    
+    display: block;
+    background: white;
+    text-align: justify;
+    border-radius: 20px;
+    margin-top: 0%;
+    position: relative;
+  transform: scale(+90%);
+    
+}
+
+.rounded-circle{
+height: 200px;
+margin-top: 20px;
+
+}
+
+
+
+
+.svg2{
+    width: 250px
+    
+  
+}
+  .svg{
+    width: 20px;
+    height: 20px;
+  }
+
+  .search-text{
+    background: rgba(117, 95, 74, 0.76);
+    border:none ;
+    display:ruby-base;
+  }  
+ p {
+  line-height: 1.5;
+  margin-top: 20px;
+}
+                                                    
+
+
+h5{
+    margin-inline-end: 40px;
+}
+                                                     
+                                                     
+                     
